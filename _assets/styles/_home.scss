@@ -22,6 +22,10 @@ h1 {
     font-size: 1.4em;
     font-weight: 900;
   }
+  h1{
+    margin-left: 5px;
+    color:white;
+  }
   .hcontainer {
     
     font-size: 10px;
@@ -33,6 +37,11 @@ h1 {
     }
     li{
       display: inline;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    a{ 
+      color: white;
     }
 }
 .hcontainer1{
@@ -52,11 +61,11 @@ section {
 .middle {
   text-align: center;
 }
-.meeting {
+.title_meeting {
   // height: 35px;
   font-size: 36.2px;
   font-family: 'Roboto';
-  margin-top: 20px;
+  margin-top: 30px;
   font-weight: 500;
   // font-style: normal;
   // font-stretch: normal;
@@ -64,7 +73,7 @@ section {
   letter-spacing: normal;
   color: #ffffff;
 }
-.run{
+.desc_run{
   height: 22px;
   margin-top: 20px;
   font-size: 22.2px;
@@ -76,7 +85,7 @@ section {
   letter-spacing: normal;
   color: #ffffff;
 }
-.take{
+.button_take{
   margin: 0 auto;
   font-size: 15px;
   border: 0px;
