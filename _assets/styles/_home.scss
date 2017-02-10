@@ -6,7 +6,7 @@ h1 {
 }
 
 .block {
-  background-color: white;
+  background-color: $white;
   border: 1px $border-color solid;
   box-shadow: 0 2px 5px $black-light-color;
   text-align: justify;
@@ -24,7 +24,7 @@ h1 {
   }
   h1{
     margin-left: 5px;
-    color:white;
+    color: $white;
   }
   .hcontainer {
     
@@ -41,11 +41,11 @@ h1 {
       margin-right: 10px;
     }
     a{ 
-      color: white;
+      color:$white;
     }
-    .signup_nav{
+    .signup-nav{
       border: 1px;
-      border-color: white;
+      border-color: $white;
       border-radius: 20px;
     }
 }
@@ -63,7 +63,7 @@ h1 {
 .middle {
   text-align: center;
 }
-.title_meeting {
+.title-meeting {
   // height: 35px;
   font-size: 40px;
   font-family: 'Roboto';
@@ -73,9 +73,9 @@ h1 {
   // font-stretch: normal;
   // line-height: normal;
   letter-spacing: normal;
-  color: #ffffff;
+  color: $white;
 }
-.desc_run{
+.desc-run{
   height: 22px;
   margin-top: 10px;
   font-size: 22.2px;
@@ -85,15 +85,15 @@ h1 {
   font-stretch: normal;
   line-height: 1.4;
   letter-spacing: normal;
-  color: #ffffff;
+  color: $white;
 }
-.desc_2{
-  color: white;
+.desc-2{
+  color: $white;
   font-size: 18px;
   margin: 20px;
   font-family: Roboto;
 }
-.button_take{
+.button-take{
   margin: 0 auto;
   font-size: 15px;
   border: 0px;
@@ -111,9 +111,12 @@ h1 {
   text-align: center;
   object-fit: contain; 
 }
+.image-baseline{
+  align-content: flex-end;
+}
 .section2 {
   display: flex;
-  background:white; 
+  background:$white; 
   width: 100%;
   height: 825px;
   object-fit: contain; 
@@ -143,10 +146,24 @@ h1 {
   height: 304px;
   background-color: #273140;
 }
+.fatty-footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #212a38;
+}
 .footer {
   width: 100%;
   text-align: center;
   height: 40px;
-  color: #ffffff;
-  background-color: #212a38;
+  color:$white;
+  background-color: #1d2531;
 }
+.foot-col1 {
+  display: flex;
+  flex-direction: column;
+  
+}
+a{
+    color: $white;
+  }
+

@@ -4,27 +4,27 @@
   flex-direction: column;
   align-items: center;
 }
-.email_section{
+.email-section{
   height:100px;
   width:500px;
-  background-color: lightcyan;
+  background-color: $lightcyan;
 }
-.password_section{
+.password-section{
   height:100px;
   margin-top: 5px;
   width:500px;
-  background-color: lightcyan;
+  background-color: $lightcyan;
 }
 .divider{
   width:200px;
   height: 1px;
   margin: 20px;
-  background-color: lightgray;
+  background-color: $lightgray;
 }
-.div_or{
+.div-or{
   display: flex;
 }
-.login_btn {
+.login-btn {
   border-radius: 29px;
   border: 0px;
   padding: 5px;
@@ -33,11 +33,11 @@
   padding-right: 35px;
   background-image:linear-gradient(#2b87f8, #2b87f8);
 }
-.text_or{
+.text-or{
   font-size: 20px;
   margin: 10px;
 }
-.login_with_google_btn{
+.login-with-google-btn{
   border-radius: 29px;
   border: 0px;
   margin: 5px;
