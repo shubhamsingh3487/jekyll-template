@@ -1,0 +1,25 @@
+--- 
+# 3 dashes above and below are needed 
+# so that jekyll can process the files 
+---
+<!DOCTYPE html>
+<html lang="en-gb">
+{% include head.html title=page.title %}
+
+<body>
+  <section class="container">
+      <img src="/img/logo_02.png" width="50px" height="50px" style="margin: 20px">
+      <h1>{{ page.getstarted }}</h1>
+      <section class="name_section_signup">
+      </section>
+      <section class="email_section_signup">
+      </section>
+      <section class="password_section_signup">
+      </section>
+      <button class="signup_btn">{{ page.signupfree }}</button>
+      <section class="div_or"><section class="divider"></section><p class="text_or">{{ page.or }}</p><section class="divider"S></section></section>
+      <button class="login_with_google_btn">{{ page.login_with_google_btn }}</button>
+  </section>
+  
+</body>
+</html>
