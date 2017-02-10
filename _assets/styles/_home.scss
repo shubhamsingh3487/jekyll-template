@@ -1,3 +1,7 @@
+html, body {
+  width: 100%;
+}
+
 body {
   font-family: 'Roboto';
 }
@@ -14,6 +18,7 @@ h1 {
 
 .mom-header {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   padding: 0 15px;
 
@@ -107,12 +112,14 @@ h1 {
   background-image: url("/img/banner.jpg"); 
   width: 100%;
   padding: 30px;
-  height: 679px;
+  padding-bottom: 0px;
+  // height: 679px;
   text-align: center;
   object-fit: contain; 
 }
 .image-baseline{
-  align-content: flex-end;
+   margin-top: 60px;
+  width:70%;
 }
 .section2 {
   display: flex;
