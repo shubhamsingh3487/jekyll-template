@@ -27,4 +27,9 @@ facebook: Facebook
 twitter: Twitter
 linkedin: Linkedin 
 googleplus: Google+
+collaborative: Collaborative Notes
+getstarted: Get Started
+simple: Simple. Just Start Typing.
+desc2: No Complicated forms, drop downs. As simple as talking notes on
+desc1: There isn’t any UI. Type notes as you normally would and action
 ---
