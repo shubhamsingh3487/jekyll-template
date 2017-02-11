@@ -130,6 +130,12 @@ h1 {
   // height: 679px;
   text-align: center;
   object-fit: contain; 
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      background-image: url("/img/banner_bg_mobile.jpg");
+    }
 }
 .image-baseline{
    margin-top: 60px;
@@ -155,9 +161,16 @@ h1 {
   p{
     font-size: 1em;
   }
-  .section2-1{
+  .section2-1a{
     display: flex;
     justify-content: space-around;
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
     img{
       width:50%;
       height:40%;
@@ -166,7 +179,31 @@ h1 {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding:10%;
+      padding-top:10%;
+      padding-bottom: 10%;
+      width:40%;
+    }
+  }
+  .section2-1b{
+    display: flex;
+    justify-content: space-around;
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 640px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      flex-direction: column;
+      align-items: center;
+    }
+    img{
+      width:50%;
+      height:40%;
+    }
+    .section2-1-1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top:10%;
+      padding-bottom: 10%;
       width:40%;
     }
   }
