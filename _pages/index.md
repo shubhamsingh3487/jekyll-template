@@ -7,8 +7,8 @@ headline: Meeting Notes Made Easy
 second-headline: Run engaging meetings that drive change
 button-text: Take 30 day FREE trial  
 pricing: Pricing
-blog: blog
-login: login
+blog: Blog
+login: Login
 signupfree: Sign Up Free
 excellent: Excellent for recurring corporate meeting minutes
 copyright: Copyright 2016, MoM
@@ -30,6 +30,7 @@ googleplus: Google+
 collaborative: Collaborative Notes
 getstarted: Get Started
 simple: Simple. Just Start Typing.
+template_desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In scelerisque lectus felis, vulputate hendrerit augue fermentum dictum. Proin sed rutrum nisl. Aliquam vel libero velit.
 desc2: No Complicated forms, drop downs. As simple as talking notes on
 desc1: There isn’t any UI. Type notes as you normally would and action
 ---
