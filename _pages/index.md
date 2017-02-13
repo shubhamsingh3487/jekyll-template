@@ -30,6 +30,7 @@ googleplus: Google+
 collaborative: Collaborative Notes
 getstarted: Get Started
 simple: Simple. Just Start Typing.
+ouruserssay: Our Users Say
 template_desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In scelerisque lectus felis, vulputate hendrerit augue fermentum dictum. Proin sed rutrum nisl. Aliquam vel libero velit.
 desc2: No Complicated forms, drop downs. As simple as talking notes on
 desc1: There isn’t any UI. Type notes as you normally would and action
