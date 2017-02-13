@@ -7,7 +7,18 @@
 {% include head.html title=page.title %}
 
 <body itemscope itemtype ="http://schema.org/CreativeWork" >
-  
+  <div class="menu">
+    <button class="cancel">
+      <i class="fa fa-times" aria-hidden="true"></i>
+    </button>
+    <ul>
+      <li><a href="">{{ page.pricing }}</a></li>
+      <li><a href="/blog.html">{{ page.blog }}</a></li>
+      <li><a href="/login.html">{{ page.login }}</a></li>
+      <li><a class="signup_nav" href="/signup.html">{{ page.signupfree }}</a></li>
+    </ul>
+    
+  </div>
   <section itemprop="text" class="section1">
   {% include header.html %}
     <div class="container1">
@@ -102,13 +113,47 @@
   </section>
   
   <section class="section5">
+    <h2>{{page.pricingandplans}}</h2>
+    <section class="section-5-1">
+      <h3>{{page.nocredit}}</h3>
+      <button> </button>
+      <h3>{{page.cancelanytime}}</h3>
+    </section>
+    <section class="section-5-2">
+      <section class="card-1">
+        <section>
+          <h3>Individual</h3>
+          <h5>Billed Monthly</h5>
+        </section>
+        <section class="section-8dollar">
+          <h4><sup>$</sup>8</h4>
+          <p class="text-permonth">Per Month</p>
+        </section>
+        <button class="btn-card">{{page.getstarted}}-8$</button>
+      </section>
+      <section class="card-2">
+        <h3>Team &amp; Enterprise</h3>
+        <h5>Roll out MoM for your team &amp; Enterprise</h5>
+        <p>Custom meeting templates</p>
+        <p>+</p>
+        <p>All notes & followups at one place</p>
+        <p>+</p>
+        <p>Rolled up report on meeting productivity for the Team</p>
+        <button class="btn-card">{{page.contact}}</button>
+      </section>
+    </section>
     <div class="container5">
     </div>
   </section>
 
   <section class="section6">
-    <div class="container6">
-    </div>
+    <h2>{{page.getintouch}}</h2>
+    <form class="form_getintouch" action="action_page.php">
+      <input type="text" name="username" placeholder="Enter Your Name"><br>
+      <input type="text" name="email" placeholder="Enter Your Email"><br>
+      <input type="text" name="msg" placeholder="Enter Message"><br>
+      <button class="button-take" type="submit">Get Started</button>
+    </form>
   </section>
   
   <section class="section7">
