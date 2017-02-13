@@ -44,8 +44,7 @@ h1 {
   .hcontainer {
     display: flex;
     flex-direction: row;
-    @media only screen 
-    and (min-width: 320px) 
+    @media only screen
     and (max-width: 800px){
       display: none;
     }
@@ -61,7 +60,7 @@ h1 {
     a{ 
       color:$white;
     }
-    #signup_nav{
+    .signup_nav{
       border: 1px solid;
       padding: 5px;
       border-color: $white;
@@ -133,8 +132,7 @@ h1 {
   // height: 679px;
   text-align: center;
   object-fit: contain; 
-  @media only screen 
-    and (min-width: 320px) 
+  @media only screen
     and (max-width: 800px){
       background-image: url("/img/banner_bg_mobile.jpg");
     }
@@ -167,8 +165,7 @@ h1 {
   .section2-1a{
     display: flex;
     justify-content: space-around;
-    @media only screen 
-    and (min-width: 320px) 
+    @media only screen
     and (max-width: 800px){
       flex-direction: column-reverse;
       align-items: center;
@@ -189,8 +186,7 @@ h1 {
   .section2-1b{
     display: flex;
     justify-content: space-around;
-    @media only screen 
-    and (min-width: 320px) 
+    @media only screen
     and (max-width: 800px){
       flex-direction: column;
       align-items: center;
@@ -212,8 +208,7 @@ h1 {
      display: flex;
      justify-content: space-around;
      width: 100%;
-     @media only screen 
-    and (min-width: 320px) 
+     @media only screen
     and (max-width: 800px) {
       flex-direction: column;
       align-items: center;
@@ -223,8 +218,7 @@ h1 {
        flex-direction: column;
        margin: 3%;
        text-align: center;
-       @media only screen 
-    and (min-width: 320px) 
+       @media only screen
     and (max-width: 800px){
       margin-left:12%;
       margin-right:12%;
@@ -313,8 +307,7 @@ h1 {
   .section-5-2{
     display: flex;
     justify-content: space-around;
-    @media only screen 
-    and (min-width: 320px) 
+    @media only screen
     and (max-width: 800px){
       flex-direction: column;
       align-items: center;
@@ -330,8 +323,7 @@ h1 {
       background-position: left bottom;
       border-radius: 10px;
       justify-content: space-between;
-      @media only screen 
-      and (min-width: 320px) 
+      @media only screen
       and (max-width: 800px){
         width:50%;
         margin:5%;
@@ -365,8 +357,7 @@ h1 {
       background-size: 60% 80%;
       border-radius: 10px;
       justify-content: space-between;
-      @media only screen 
-      and (min-width: 320px) 
+      @media only screen
       and (max-width: 800px){
         width:50%;
         margin:5%;
@@ -449,8 +440,7 @@ h1 {
   margin-left: 20%;
   margin-right: 20%;
   justify-content: space-between;
-  @media only screen 
-      and (min-width: 320px) 
+  @media only screen
       and (max-width: 800px){
         flex-direction: column;
         justify-content: center;
@@ -462,8 +452,7 @@ h1 {
   display: flex;
   width:50%;
   justify-content: space-around;
-  @media only screen 
-      and (min-width: 320px) 
+  @media only screen
       and (max-width: 800px){
         width:100%;
       }
@@ -478,8 +467,7 @@ h1 {
 .foot-col1 {
   display: flex;
   flex-direction: column;
-  @media only screen 
-      and (min-width: 320px) 
+  @media only screen
       and (max-width: 800px){
         width:50%;
       }
@@ -502,8 +490,7 @@ h1 {
   border:none;
   color: $white;
   outline: none;
-  @media only screen 
-    and (min-width: 320px) 
+  @media only screen
     and (max-width: 800px){
       display: block;
   }
@@ -512,8 +499,7 @@ h1 {
   background: none;
   border:none;
   color: $white;
-  @media only screen 
-    and (min-width: 320px) 
+  @media only screen
     and (max-width: 800px){
       display: block;
     }
@@ -535,10 +521,9 @@ h1 {
       }
     }
     .signup_nav{
-      border: 1px solid;
+      border: 1px solid $white;
       padding: 3px;
       border-color: $white;
-      border-radius: 20px;
     }
   }
 }
