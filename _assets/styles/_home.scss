@@ -235,19 +235,30 @@ h1 {
   display: flex;
   background-image: url("/img/insights_bg.jpg"); 
   width: 100%;
-  justify-content: space-around;
+  align-items: center;
   color: $white;
   font-weight: lighter;
-  .container3{
+  .rowone{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 5%;
-    h2{
-      font-size: 2em;
+    width : 50%;
+    justify-content: space-around;
+    @media only screen
+    and (max-width: 800px){
+      flex-direction: column;
+      align-content: center;
     }
-    p{
-      font-size: 1em;
+    .container3{
+      display: flex;
+      width: 25%;
+      flex-direction: column;
+      justify-content:center;
+      margin: 5%;
+      h2{
+        font-size: 2em;
+      }
+      p{
+        font-size: 1em;
+      }
     }
   }
 }
@@ -318,7 +329,7 @@ h1 {
       flex-direction: column;
       background: $bg-lighter;
       padding:2%;
-      background-image: url("/img/Pricing/user.svg");
+      background-image: url("/img/Pricing/user-compressor.svg");
       background-repeat: no-repeat;
       background-position: left bottom;
       border-radius: 10px;
@@ -351,7 +362,7 @@ h1 {
       flex-direction: column;
       background: $bg-lighter;
       padding:2%;
-      background-image: url("/img/Pricing/building.svg");
+      background-image: url("/img/Pricing/building-compressor.svg");
       background-repeat: no-repeat;
       background-position: left bottom;
       background-size: 60% 80%;
@@ -506,11 +517,10 @@ h1 {
 }
 .menu{
   opacity: 50%;
-  z-index:10000000000000;
-  font-size:0.8em;
-  background:$bg-darker;
+  z-index: 1000000;
+  font-size: 0.8em;
+  background: $bg-darker;
   padding: 2%;
-  justify-content: center;
   text-align:center;
   ul{
     list-style: none;
